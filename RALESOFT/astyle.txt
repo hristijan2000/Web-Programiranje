@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to right,#fdfdfd,#ebedee 70%);
+}
+nav{
+    padding: 5px 20px;
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight:bolder ;
+}
+a:hover{
+    text-decoration: underline;
+}
+.linkovi li{
+    font-size: 16px;
+    padding: 15px 5px;
+}
+.linkovi li a{
+    display: block;
+}
+.button.secondary{
+    border-bottom: 1px #444 solid;
+}
+.logo a{
+    font-size: 50px;
+    margin-left: 10px;
+    letter-spacing: 10px;
+    color: rgb(45, 73, 129);
+   /*background: linear-gradient(90deg, #00dbde,#fc00ff);*/
+   text-transform: uppercase;
+   /*-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;*/
+    
+}

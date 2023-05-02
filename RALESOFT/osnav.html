@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>HOME</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+        $(function() {
+           $(".toggle").on("click", function(){
+
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+            }
+            else{
+                $(".item").addClass("active");
+            }
+
+
+           })
+        });
+        </script>
+    </head>
+
+<body>
+    <header>
+
+           
+            <nav>
+                <ul class="linkovi">
+                    <li class="logo"> <a href="#">RALESOFT</a></li>
+                    <li class="item"><a href="#">HOME</a></li>
+                    <li class="item"><a href="about.html">ABOUT</a></li>
+                    <li class="item"><a href="services.html">SERVICES</a></li>
+                    <!--<li class="item button"><a href="#">Log In</a></li>
+                    <li class="item button secondary"><a href="#">Sign Up</a></li>-->
+                    <li class="toggle"><a href="#"><span class="bars"></span></a></li>
+                </ul>
+            </nav>
+
+             
+    </header>
+
+        
+
+    <main class="testimonial-grid">
+        <article class="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
+          <div class="flex">
+            <div>
+              <img  src="raliss.png" alt="RALESOFT">
+            </div>
+            <div>
+              <h2 class="name">Hristijan Ralevski</h2>
+              <p class="position">Web developer</p>
+            </div>
+          </div>
+          <p>
+            RALESOFT is inspiration from quick progres  in IT Industrion.
+          </p>
+          <p>
+            “ The inspiration for this step is belonging from a long time ago.
+            Today I am making the first professional step towards WEB programming ”
+          </p>
+        </article>
+        <article class="testimonial flow bg-secondary-400 text-neutral-100">
+          <div class="flex">
+            <div>
+                <img  src="raliss.png" alt="RALESOFT">
+              </div>
+              <div>
+                <h2 class="name">Hristijan Ralevski</h2>
+                <p class="position">Web developer</p>
+              </div>
+          </div>
+          
+
+
+          <img style="height:170px ; width: 220px;" src="ralis.jpg">
+
+
+
+        </article>
+        <article class="testimonial flow bg-neutral-100 text-secondary-400">
+          <div class="flex">
+            <div>
+                <img  src="raliss.png" alt="RALESOFT">
+              </div>
+              <div>
+                <h2 class="name">Hristijan Ralevski</h2>
+                <p class="position">Web developer</p>
+              </div>
+          </div>
+          <p>
+            EDUCATION
+           </p>
+           <p>
+             “ I study FIKT - Faculty of Information and Communication Technologies.Мy orientation is web programming.I have expirence for HTML, CSS, JavaScript.”
+           </p>
+        </article>
+        <article class="testimonial grid-col-span-2 flow bg-secondary-500 text-neutral-100">
+          <div class="flex">
+            <div>
+                <img  src="raliss.png" alt="RALESOFT">
+              </div>
+              <div>
+                <h2 class="name">Hristijan Ralevski</h2>
+                
+                <p class="position">Web developer</p>
+              </div>
+          </div>
+          <p>The purpose of this site is to provide advice in the field of web programming, UI/UX design and the latest methods used to create a web sites or web aplication.</p>
+        </article>
+        <article class="testimonial flow bg-neutral-100 text-secondary-400">
+          <div class="flex">
+            <div>
+                <img  src="raliss.png" alt="RALESOFT">
+              </div>
+              <div>
+                <h2 class="name">Hristijan Ralevski</h2>
+                <p class="position">Web developer</p>
+              </div>
+          </div>
+          <p>
+            Experience
+          </p>
+          <p>
+            <ul>
+                <li>Software Engineer Internship at IWConnect.</li>
+                <li>Knowledge of HTML, CSS, JavaScript, Bootstrap.</li>
+                <li>Participation in team projects.</li>
+            </ul>
+          </p>
+        </article>
+      </main>
+
+      
+      <footer>
+        <h1>Contact</h1>
+        <div id="footer-contact">
+        
+  
+          <ul>
+            <li> - E-mail: kiksa_mk@hotmial.com</li>
+            <li> - Linkedin: Hristijan Ralevski</li>
+            <li> - Phone: 075-812-679</li>
+            <li> - Adress: Filip Vtori Makedonski</li>
+          </ul>
+        </div>
+      </footer>
+</body>
+
+</html>

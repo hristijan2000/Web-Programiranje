@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+  <head>
+    <link href="astyle.css" rel="stylesheet" />
+    <title>ABOUT</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="linkovi">
+          <li class="logo"><a href="#">RALESOFT</a></li>
+          <li class="item"><a href="osnav.html">HOME</a></li>
+          <li class="item"><a href="#">ABOUT</a></li>
+          <li class="item"><a href="services.html">SERVICES</a></li>
+          <!--<li class="item button"><a href="#">Log In</a></li>
+                    <li class="item button secondary"><a href="#">Sign Up</a></li>-->
+          <li class="toggle">
+            <a href="#"><span class="bars"></span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <div class="container">
+        <div class="card">
+           <img src="avatar.png">
+           <div class="intro">
+              <h1><a href="aboutt.html">About</a></h1>
+              <p>About me. Short explanation</p>
+           </div>
+        </div>
+
+        <div class="card">
+           <img src="contentt.jpg">
+           <div class="intro">
+              <h1><a href="#contentt">Content</a></h1>
+              <p>Content of Web Page</p>
+           </div>
+        </div>
+
+        <div class="card">
+           <img src="bloggg.jpg">
+           <div class="intro">
+              <h1><a href="#blogg">Blog</a></h1>
+              <p>New's about IT Industry</p>
+           </div>
+        </div>
+     </div>
+
+    <footer>
+      <h1>Contact</h1>
+      <div id="footer-contact">
+      
+
+        <ul>
+          <li> - E-mail: kiksa_mk@hotmial.com</li>
+          <li> - Linkedin: Hristijan Ralevski</li>
+          <li> - Phone: 075-812-679</li>
+          <li> - Adress: Filip Vtori Makedonski</li>
+        </ul>
+      </div>
+    </footer>
+
+    
+  </body>
+</html>

@@ -13,10 +13,36 @@ const server = http.createServer(function(req, res){
         }
         res.end()
     })
+    fs.readFile('about.html', function(error, data){
+        if(error){
+            res.writeHead(404)
+            res.write('Error: File Not Found')
+        }else {
+            res.write(data)
+        }
+        res.end()
+    })
+    fs.readFile('aboutt.html', function(error, data){
+        if(error){
+            res.writeHead(404)
+            res.write('Error: File Not Found')
+        }else {
+            res.write(data)
+        }
+        res.end()
+    })
+    fs.readFile('services.html', function(error, data){
+        if(error){
+            res.writeHead(404)
+            res.write('Error: File Not Found')
+        }else {
+            res.write(data)
+        }
+        res.end()
+    })
 
-    res.write('Hello NOde');
-    res.end();
 })
+
 
 server.listen(port, function(error){
     if(error){
